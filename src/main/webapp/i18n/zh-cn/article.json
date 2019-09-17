@@ -1,0 +1,26 @@
+{
+  "blogApp": {
+    "article": {
+      "home": {
+        "title": "Articles",
+        "createLabel": "创建新 Article",
+        "createOrEditLabel": "创建或编辑 Article",
+        "notFound": "No Articles found"
+      },
+      "created": "Article {{ param }} 创建成功",
+      "updated": "Article {{ param }} 更新成功",
+      "deleted": "Article {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Article {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Article"
+      },
+      "title": "Title",
+      "content": "Content",
+      "date": "Date",
+      "blog": "Blog",
+      "tag": "Tag"
+    }
+  }
+}

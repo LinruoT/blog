@@ -43,6 +43,11 @@ public class CacheConfiguration {
             createCache(cm, com.linruot.blog.domain.User.class.getName());
             createCache(cm, com.linruot.blog.domain.Authority.class.getName());
             createCache(cm, com.linruot.blog.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.linruot.blog.domain.Blog.class.getName());
+            createCache(cm, com.linruot.blog.domain.Article.class.getName());
+            createCache(cm, com.linruot.blog.domain.Article.class.getName() + ".tags");
+            createCache(cm, com.linruot.blog.domain.Tag.class.getName());
+            createCache(cm, com.linruot.blog.domain.Tag.class.getName() + ".entities");
             // jhipster-needle-ehcache-add-entry
         };
     }
